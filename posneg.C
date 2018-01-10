@@ -16,5 +16,4 @@ if(num==0)
 {
 printf("Number is zero");
 }
-return0;
 }
