@@ -1,13 +1,13 @@
-#include<stdio.h>
-main()
-int n,sum=0,i=1;
-printf("Enter the value of");
-scanf("%d",&n);
-while(i<=n)
+#include <stdio.h>
+int main()
 {
-if(i%2==1,0)
-sum=sum+i;
-i++;
-}
-printf("sum of natural numbers")
+  int i, n, sum=0;
+  printf("Enter upper limit: ");
+  scanf("%d", &n);
+  for(i=1; i<=n; i++)
+    {
+        sum=sum+i;
+    }
+   printf("Sum of first %d natural numbers = %d", n, sum);
+   return 0;
 }
